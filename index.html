@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mmmm</title>
+</head>
+<body>
+    <div class="user-form">
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Add User</legend>
+                <div>
+
+                    <label>
+                        First Name:
+                        <input type="text" id="firstName" name="first_name" placeholder="William">
+                    </label>
+                </div>
+                <div>
+                    
+                    <label>
+                        Last Name:
+                        <input type="text" id="lastName" name="last_name" placeholder="Smith">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Email:
+                        <input type="email" id="email" name="email" placeholder="WillSmith@jiggywithit.com">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Status:
+                        <select id="status" name="status">
+                            <option value="student">Student</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="guest">Guest</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <p>Choose your favorite programming lanugage:</p>
+                    <label>
+                        HTML
+                        <input type="radio" id="favorite-language-1" name="favorite_language" value="html"> 
+                    </label>
+                    <label>
+                        CSS
+                        <input type="radio" id="favorite-language-2" name="favorite_language" value="css"> 
+                    </label>
+                    <label>
+                        JavaScript
+                        <input type="radio" id="favorite-language-3" name="favorite_language" value="javascript"> 
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Comments
+                        <textarea id="comments" name="comments" placeholder="Enter comments here..."></textarea>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Date:
+                        <input type="date" id="date" name="date" placeholder="mm/dd/yyyy">
+                    </label>
+                </div>
+                <div>
+                    <br><label>
+                        Sign up for newsletter:
+                        <input type="checkbox" id="check-newsletter" name="user_check_newsletter">
+                    </label><br>
+                    <label>
+                        Agree to terms and conditions
+                        <input type="checkbox" id="check-terms-and-conditions" name="user_check_terms">
+                    </label><br>
+                </div>
+                <div>
+                    <button type="submit">Create User</button>
+                </div>
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+</html>
